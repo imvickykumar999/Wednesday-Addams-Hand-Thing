@@ -3,7 +3,8 @@ import cv2
 import numpy as np
 import time
 
-capture_video = cv2.VideoCapture("http://192.168.1.2:8080/video")
+# capture_video = cv2.VideoCapture("http://192.168.1.2:8080/video")
+capture_video = cv2.VideoCapture(0)
 	
 time.sleep(1)
 count = 0
